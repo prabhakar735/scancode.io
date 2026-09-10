@@ -13,7 +13,7 @@
 - Tag and push that tag. This will trigger the `pypi-release.yml` GitHub workflow that
   takes care of building the dist release files and upload those to pypi:
 
-  ```sh
+  ```nooo
   VERSION=vx.x.x  # <- Set the new version here
   git tag -a $VERSION -m ""
   git push origin $VERSION
